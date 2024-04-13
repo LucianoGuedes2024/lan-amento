@@ -1,0 +1,70 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+
+}
+
+
+header{
+padding: 2.5rem;
+background-color: greenyellow
+
+}
+
+nav ul {
+display: flex;
+justify-content: center;
+
+}
+
+
+nav ul li{
+margin-right: 20px;
+font-size: 25px;
+
+}
+
+nav ul li a{
+text-decoration: none;
+color: white;
+}
+
+nav ul li a:hover{
+ color: black;
+ transition: 0.8s;  
+}
+
+
+.meta1{
+    background-image: url(imagens/Prancheta\ 1.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 15rem;
+}
+
+
+span{
+ color: blue;
+ font-weight: 700;  
+}
+
+section button {
+margin-top: 1.5rem;
+color: white;
+background-color: blue;
+cursor: pointer;
+width: 15rem;
+height: 3em;
+
+
+
+}
+
+
+
+
+
+
+
