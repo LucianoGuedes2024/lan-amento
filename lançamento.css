@@ -79,13 +79,17 @@ section button {
 
 .meta2 {
     background-image: url(Prancheta\ 2.jpg);
-    padding: 15rem;
+    background-attachment: fixed;
+    padding: 10rem;
     background-repeat: no-repeat;
     background-size: cover;
 
 
-}    .meta2 a button   {
-margin-top:300px;
+}    
+
+
+.meta2 a button   {
+margin-top: 10rem;
 color: white;
 background-color: blue;
 cursor: pointer;
