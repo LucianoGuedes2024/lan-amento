@@ -1,43 +1,42 @@
-*{
-margin: 0;
-padding: 0;
-list-style: none;
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 
 }
 
 
-header{
-padding: 2.5rem;
-background-color: greenyellow
-
+header {
+    padding: 2.5rem;
+    background-color: rgb(81, 65, 121)
 }
 
 nav ul {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 
 }
 
 
-nav ul li{
-margin-right: 20px;
-font-size: 25px;
+nav ul li {
+    margin-right: 20px;
+    font-size: 25px;
 
 }
 
-nav ul li a{
-text-decoration: none;
-color: white;
+nav ul li a {
+    text-decoration: none;
+    color: white;
 }
 
-nav ul li a:hover{
- color: black;
- transition: 0.8s;  
+nav ul li a:hover {
+    color: black;
+    transition: 0.8s;
 }
 
 
-.meta1{
-    background-image: url(imagens/Prancheta\ 1.jpg) ;
+.meta1 {
+    background-image: url(imagens/Prancheta\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -45,13 +44,48 @@ nav ul li a:hover{
 }
 
 
-span{
- color: blue;
- font-weight: 700;  
+span {
+    color: blue;
+    font-weight: 700;
 }
 
 section button {
-margin-top: 1.5rem;
+    margin-top: 1.5rem;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    width: 15rem;
+    height: 3em;
+
+
+
+}
+
+.section-text {
+    background-color: rgb(63, 63, 161);
+    color: white;
+    font-size: 25px;
+    padding: 10rem;
+    display: flex;
+    text-align: center;
+}
+
+.section-text p {
+    margin: 15px;
+    text-align: justify;
+
+}
+
+
+.meta2 {
+    background-image: url(Prancheta\ 2.jpg);
+    padding: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}    .meta2 a button   {
+margin-top:300px;
 color: white;
 background-color: blue;
 cursor: pointer;
@@ -59,12 +93,4 @@ width: 15rem;
 height: 3em;
 
 
-
-}
-
-
-
-
-
-
-
+}  
