@@ -80,10 +80,11 @@ section button {
 .meta2 {
     background-image: url(Prancheta\ 2.jpg);
     background-attachment: fixed;
+    background-position: center;
     padding: 10rem;
     background-repeat: no-repeat;
     background-size: cover;
-
+    
 
 }    
 
@@ -97,4 +98,27 @@ width: 15rem;
 height: 3em;
 
 
-}  
+} 
+
+footer{
+padding:3rem;
+background-color: blueviolet;
+text-align: center;
+
+
+
+
+}
+
+footer div p{
+
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+
+footer div p:hover{
+
+    color: blue;
+    transition: 0.5s;
+}
