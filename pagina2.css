@@ -54,9 +54,14 @@ color: white;
 text-shadow: 4px 4px 4px black;
 }
 
+h2{
+    font-size: 35px;
+}
+
 .pagina p{
     color: white;
     text-shadow: 4px 4px 4px black;
+    
 }
 
 .pagina1{
@@ -74,7 +79,9 @@ background-color: rgb(143, 73, 143);
 text-align: center;
 box-shadow: 5px 5px 5px black;
 text-shadow: 4px 4px 4px black;
- 
+ align-items: center;
+ display: flex;
+ justify-content: end;
 
 }
 
@@ -101,7 +108,7 @@ footer nav ul li a{
     display: flex;
     font-size: 2rem;
     justify-content: end;
-    align-items: center;
+    
     
     
 }
