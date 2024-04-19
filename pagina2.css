@@ -11,6 +11,11 @@ header{
     text-shadow:  4px 4px 4px black;
 }
 
+header i{
+    font-size: 100px;
+    
+}
+
 nav ul{
 
     display: flex;
@@ -54,9 +59,17 @@ text-shadow: 4px 4px 4px black;
     text-shadow: 4px 4px 4px black;
 }
 
+.pagina1{
+    background-color: rgb(168, 131, 202);
+    padding: 4rem;
+    font-size: 25px;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+}
+
 
 footer{
-padding: 3rem;
+padding: 1rem;
 background-color: rgb(143, 73, 143);
 text-align: center;
 box-shadow: 5px 5px 5px black;
@@ -80,5 +93,21 @@ footer nav ul li{
 footer nav ul li a{
     text-decoration: none;
     color: white;
+    
+    
 }
+
+.icone{
+    display: flex;
+    font-size: 2rem;
+    justify-content: end;
+    align-items: center;
+    
+    
+}
+
+.icone i{
+    margin-left: 2em;
+}
+
 
