@@ -78,7 +78,7 @@ section button {
 
 
 .meta2 {
-    background-image: url(Prancheta\ 2.jpg);
+    background-image: url(imagens/Prancheta\ 2.jpg);
     background-attachment: fixed;
     background-position: center;
     padding: 10rem;
@@ -121,4 +121,9 @@ footer div p:hover{
 
     color: blue;
     transition: 0.5s;
+}
+
+footer nav ul li a:hover{
+    color: black;
+    transition: 0.8s;
 }
