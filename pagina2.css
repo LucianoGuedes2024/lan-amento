@@ -81,13 +81,65 @@ h2{
     text-shadow: 4px 4px 4px black;
 }
 
+.meta3 {
+    padding: 1em;
+    background-color: blueviolet;
+}
+
+.meta3 div{
+
+    display:  flex;
+    background-color: blueviolet;
+   
+}
+
+
+.meta3 img{
+    
+width: 30rem;
+height: auto;
+margin-left: 70px;
+margin-top: 50px;
+}
+
+.meta3 p{
+    background-color: blueviolet;
+    padding: 70px;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    margin-left: 1em;
+}
+    
+    
+    
+    
+
+
+.meta3 button{
+    padding: 1rem;
+    border-radius: 50px;
+    border-color: rgb(84, 59, 107);
+    width: 15rem;
+    cursor: pointer;
+    margin-top: 1em;
+    margin-left: 4em;
+
+     }
+
+     .meta3 button:hover{
+        transition: 5s;
+        color: white;
+        background-color: blue;
+
+     }
+
+     .meta3 button a{
+
+     }
+
 
     
-    
-    
-    
-
-
 
     
 
